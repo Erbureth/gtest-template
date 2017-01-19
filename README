@@ -1,0 +1,7 @@
+This is a template project with GTest
+
+GTest is built from external sources, so no GTest source files
+are required to be shipped with the project. It is intendes
+as a template project for other projects which use GTest.
+
+Everything here is public domain, use it as you please.
