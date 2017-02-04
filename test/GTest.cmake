@@ -8,7 +8,7 @@ endif()
 
 include(ExternalProject)
 ExternalProject_Add(googletest_project
-    SOURCE_DIR /usr/src/gtest
+    SOURCE_DIR /usr/src/googletest/googletest
     CMAKE_ARGS -DCMAKE_BUILD_TYPE=${CMAKE_BUILD_TYPE}
                -DCMAKE_SYSTEM_NAME=${CMAKE_SYSTEM_NAME}
                -Dgtest_disable_pthreads=${gtest_disable_pthreads}
